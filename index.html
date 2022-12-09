@@ -11,22 +11,80 @@
 <body>
     <header>
         <h1 class="display-4 bg-primary text-center">Bonjour Terrage</h1>
+    </header>
+    <main>
         <div class="container bg-dark color-light">
             <div class="row">
                 <div class="col-6">
-                    <p>UN CAFé !!!!!!!!!!</p>
+                    <p>Un Café !!!!!!!!!!</p>
                 </div>
                 <div class="col-6">
-                    <p>JE VEUX FUMER !!!!!!!!!!!!!!! </p>
+                    <p>Je veux fumer !!!!!!!!!!!!!!! </p>
                 </div>
             </div>
         </div>
-    </header>
-    <main>
-        
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active ">
+                <img src="img/clope.jpg" class="d-block w-100 containerimg" alt="cigarette">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Une clope</h5>
+                  <p>J'arrete de fumer...</p>
+                </div>
+              </div>
+              <div class="carousel-item ">
+                <img src="img/cafe.jpg" class="d-block w-100 containerimg" alt="café">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Un Café</h5>
+                  <p>Comment arreter de fumer faut-il d'abord stopper le café</p>
+                </div>
+              </div>
+              <div class="carousel-item ">
+                <img src="img/cafe&clope.jpg" class="d-block w-100 containerimg" alt="cigarette & café">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Arrêter de fumer et le café</h5>
+                  <p>Faut-il arreter de fumer en même temps que le Café</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Précédent</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Suivant</span>
+            </button>
+        </div>
+        <div>
+            <dt>Dépôt ou "répo"</dt>
+            <dd>Un "dépôt" Git est l'emplacement de stockage d'un projet en local ou sur un serveur distant. On peut le voir comme le dossier principal du projet</dd>
+            <dt>Cloner</dt>
+            <dd>Le terme "cloner" signifie copier un dépôt Git distant sur la machine locale. Celà a pour effet de récupérer les versions courantes de tous les fichiers.</dd>
+            <dt>Commit</dt>
+            <dd> Nous utiliserons le terme "commit" lorsque nous validerons et verrouillerons les modifications apportées à nos fichiers.</dd>
+            <dt>Push</dt>
+            <dd>Nous ferons un "push" lorsque nous voudrons envoyer les différents "commits" vers le serveur distant.</dd>
+            <dt>Pull</dt>
+            <dd>Nous ferons un "pull" lorsque nous voudrons récupérer les différents "commits" distants sur notre dépôt local.</dd>
+            <dt>Fetch</dt>
+            <dd>Faire un "fetch", c'est récupérer la liste des modifications effectuées sur le dépôt distant</dd>
+        </div>
     </main>
     <footer>
-
+        <ul class="row">
+            <li class="col-2"><a href="#">Lien 1</a></li>
+            <li class="col-2"><a href="#">Lien 2</a></li>
+            <li class="col-2"><a href="#">Lien 3</a></li>
+            <li class="col-2"><a href="#">Lien 4</a></li>
+            <li class="col-2"><a href="#">Lien 5</a></li>
+            <li class="col-2"><a href="#">Lien 6</a></li>
+        </ul>
     </footer>
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>

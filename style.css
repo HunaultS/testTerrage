@@ -2,5 +2,20 @@ body{
     color:bisque;
     background-color: blue;
     text-align:center; 
-    font-size: xx-large;
+    /* font-size: xx-large; */
+}
+footer ul li{
+    list-style-type: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+*{
+    width: 100%;
+}
+.containerimg{
+    width: 90%;
+    margin: 0 auto;
+    height: 90vh;
 }
