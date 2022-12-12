@@ -1,7 +1,8 @@
 body{
     color:bisque;
     background-color: blue;
-    text-align:center; 
+    text-align:center;
+    width: 100%; 
     /* font-size: xx-large; */
 }
 footer ul li{
@@ -14,8 +15,22 @@ footer ul li a{
 *{
     width: 100%;
 }
+header{
+    width: 100%;
+}
+main{
+    width: 100%;
+}
+footer{
+    width: 100%;
+}
 .containerimg{
     width: 90%;
     margin: 0 auto;
     height: 90vh;
+}
+#containerimg1,
+#containerimg2,
+#containerimg3{
+    width: 680px;
 }
